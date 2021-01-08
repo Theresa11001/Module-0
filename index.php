@@ -45,8 +45,8 @@ $num_contacts = $pdo->query('SELECT COUNT(*) FROM contacts')->fetchColumn();
                 <td><?=$contact['title']?></td>
                 <td><?=$contact['created']?></td>
                 <td class="actions">
-                    <a href="update.php?id=<?=$contact['id']?>" class="edit"><i class="fas fa-pen fa-xs"></i></a>
-                    <a href="delete.php?id=<?=$contact['id']?>" class="trash"><i class="fas fa-trash fa-xs"></i></a>
+                    <a href="update.php?id=<?=$contact['id']?>" class="edit">Edit</a>
+                    <a href="delete.php?id=<?=$contact['id']?>" class="trash">Delete</a>
                 </td>
             </tr>
             <?php endforeach; ?>
