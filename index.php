@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>myapp</title>
+	<title>COVID-19 ESTABLISHMENT LOGBOOK</title>
 </head>
 <body>
-first edit need to commit
 
-<form>
-	<label>Name</label>
 
-</form>
+<table>
+        <thead>
+            <tr>
+                <td>#</td>
+                <td>Name</td>
+                <td>Address</td>
+                <td>Phone</td>
+                <td>Gender</td>
+                <td>Date And Time</td>
+                <td></td>
+            </tr>
+        </thead>
+      
+    </table>
 </body>
 </html>
